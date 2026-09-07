@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+             font-family: 'Vazir', sans-serif;
+        }
+        .form{
+ background-image: url(./images/formmm.avif);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 100vh;
+}
+
+
+.form-box {
+width: 320px;
+background: #ffffff;
+padding: 25px;
+margin: 60px auto;
+border-radius: 12px;
+box-shadow: 0 0 15px rgba(0,0,0,0.1);
+font-family: sans-serif;
+position: absolute;
+top: 20%;
+left: 60%;
+}
+
+.form-box h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.form-box label {
+font-size: 14px;
+margin-bottom: 5px;
+display: block;
+}
+
+.form-box input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 6px;
+margin-bottom: 15px;
+font-size: 14px;
+}
+
+.submit-btn {
+width: 100%;
+padding: 12px;
+background: #5132cc;
+border: none;
+border-radius: 6px;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.submit-btn:hover {
+opacity: 0.85;
+}
+
+
+.btn {
+position:absolute;
+padding: 10px 20px;
+background-color:#5132cc;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+top: 0%;
+margin: 10px;
+}
+
+.btn:hover {
+opacity: 0.8;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="form">
+
+        <div class="form-box">
+<h2>Sign Up</h2>
+
+<form>
+<label for="fname">First Name</label>
+<input type="text" id="fname" placeholder="Enter your first name">
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" placeholder="Enter your last name">
+
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email">
+
+<button type="submit" class="submit-btn">Submit</button>
+</form>
+</div>
+   <a href="index.html" class="btn">Home</a>
+</div>
+
+
+</body>
+</html>
